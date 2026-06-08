@@ -1,0 +1,20 @@
+info:
+  identifier: aurora
+  name: "Aurora"
+  description: "A free Nebula-inspired dark theme for Pterodactyl — rounded, modern, glassmorphism"
+  version: "1.0.0"
+  target: "beta-2026-01"
+  author: "YourName"
+  website: "https://github.com/YourUsername/aurora-ptero"
+
+flags:
+  - AdminWrap
+  - DashboardWrap
+
+admin:
+  wrapper: admin/wrapper.blade.php
+  css: admin/admin.css
+
+dashboard:
+  wrapper: public/views/wrapper.blade.php
+  css: public/css/theme.css
